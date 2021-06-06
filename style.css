@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+}
+header{
+    text-align: center;
+}
+header>h1{
+    color: #fff;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+}
+.container{
+    width: 1200px;
+    height: 700px;
+    margin: 100px auto;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+}
+p{
+    color: #fff;
+    font-size: 30px;
+}
+img{
+    float: left;
+    margin-right: 20px;
+}
+.comp-word{
+    text-align: center;
+    margin-top: 100px;
+}
+.hello{
+    text-align: center;
+    margin-top: 10px;
+}
+.something{
+    text-align: center;
+    margin-top: 100px;
+}
